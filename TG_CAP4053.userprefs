@@ -1,9 +1,12 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Sensor_Data.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\collusion_Detection.js">
     <Files>
+      <File FileName="Assets\Sensor_Data.cs" Line="18" Column="11" />
+      <File FileName="Assets\Feelers.cs" Line="18" Column="5" />
       <File FileName="Assets\Standard Assets\Character Controllers\Sources\Scripts\ThirdPersonController.js" Line="10" Column="49" />
-      <File FileName="Assets\Sensor_Data.cs" Line="8" Column="2" />
+      <File FileName="Assets\collusion_Detection.js" Line="21" Column="12" />
+      <File FileName="Assets\raycast1.js" Line="8" Column="48" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

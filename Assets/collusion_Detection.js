@@ -18,7 +18,7 @@ function OnCollisionEnter(theCollision : Collision){
     else if(theCollision.gameObject.name == "Wall 2"){
     	Debug.Log("Hit the other invisible wall");
     }
-    else if (theCollision.gameObject.name == "Wall 3"){
+    else if(theCollision.gameObject.name == "Wall 3"){
     	Debug.Log("Hit the 3rd invisible wall");
     }
     else if(theCollision.gameObject.name == "Wall 4"){
