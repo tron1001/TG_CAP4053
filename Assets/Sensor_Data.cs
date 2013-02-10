@@ -3,8 +3,10 @@ using System.Collections;
 
 public class Sensor_Data : MonoBehaviour {
 
+    Feelers forward;
 	// Use this for initialization
 	void Start () {
+        //Feelers forward;
 	    
 	}
 	
@@ -13,6 +15,7 @@ public class Sensor_Data : MonoBehaviour {
         //System.Console.WriteLine("Hello World!"); this won't print to console in unity
         //however this line will
         print("Hello World!!");
+        //forward.OnTriggerStay(collider);
         //sensor data will print in this method
 	}
 }
