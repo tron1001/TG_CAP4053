@@ -1,3 +1,10 @@
+/*
+ * @author Thong Tran & Rene Gajardo
+ * 
+ * this code will created and radar and detect every npc within a
+ * certain range
+ * */
+
 using UnityEngine;
 using System.Collections;
 

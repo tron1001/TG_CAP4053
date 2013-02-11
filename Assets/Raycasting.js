@@ -1,4 +1,5 @@
 /*
+@author Rene Gajardo & Thong Tran
 this source code will create the feelers and return the distance between the player
 character and the wall if the feeler comes into contact with the wall
 */

@@ -1,4 +1,9 @@
-//#pragma strict //this is useless
+/*
+@author Thong Tran & Rene Gajardo
+
+this source code creates 4 pie slice and detects where
+each npc show up in which slice if the npc is within range
+*/
 
 public var cObject : Transform;
 public var front : int;
