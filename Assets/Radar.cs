@@ -22,22 +22,15 @@ public class Radar : MonoBehaviour {
 		float dist = Vector3.Distance(cPos, npcPos);
 		if(dist < 5)
 		{
-			float xdist = cPos.x - npcPos.x;
-			float zdist = cPos.z - npcPos.z;
+			float xdist = npcPos.x - cPos.x;
+			float zdist = npcPos.z - cPos.z;
 			
 			float ang = Mathf.Atan2(xdist, zdist) * Mathf.Rad2Deg - cObject.eulerAngles.y;
-			/*if(xdist <= 0){
-				if(zdist <0){
-					ang+=90;
-				}
-				else if(xdist > 0){
-					ang+=180;	
-				}
-			}
-			else{
-				ang+=270;
-			}*/
 			
+			if(ang < 0)
+				ang = (ang * -1) % 360;
+			else
+				ang = ang % 360;
 			print (ang + ", " + dist);
 		}
 	}
