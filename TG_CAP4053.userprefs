@@ -1,11 +1,9 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Seek.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Raycasting.js">
     <Files>
-      <File FileName="Assets\Standard Assets\Character Controllers\Sources\Scripts\CharacterMotor.js" Line="1" Column="1" />
-      <File FileName="Assets\Seek.cs" Line="24" Column="2" />
-      <File FileName="Assets\Pathfinder.cs" Line="1" Column="1" />
-      <File FileName="Assets\FindNode.cs" Line="1" Column="1" />
+      <File FileName="Assets\Raycasting.js" Line="1" Column="1" />
+      <File FileName="Assets\Pieslice.js" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
