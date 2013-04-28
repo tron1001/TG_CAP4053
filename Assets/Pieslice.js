@@ -30,7 +30,7 @@ function Update () {
 	for (var nc : GameObject in npc) {
 		findnpc (nc);
 	}
-	print("CUrrent Position: " + transform.position);
+	//print("CUrrent Position: " + transform.position);
 	print("Players: " + count);
 }
 
@@ -50,7 +50,7 @@ function findnpc(nc) {
 	dist = Vector3.Distance(cPos, npcPos);
 	
 	
-	if(dist < 40){
+	if(dist < 80){
 		//finds the distance between the npc and the player character
 		xdist = npcPos.x - cPos.x;
 		zdist = npcPos.z - cPos.z;
@@ -61,7 +61,7 @@ function findnpc(nc) {
 			ang = (ang * -1) % 360;
 		else
 			ang = ang % 360;
-		if(dist < 6 && (ang > 45 && ang < 315))
+		if(dist < 12 && (ang > 45 && ang < 315))
 			count++;
 		else if(ang <= 45 || ang >= 315)
 			count++;

@@ -5,8 +5,6 @@ Project("{66FE663F-A072-EC53-BD15-EB5315E377B4}") = "TG_CAP4053", "Assembly-CSha
 EndProject
 Project("{66FE663F-A072-EC53-BD15-EB5315E377B4}") = "TG_CAP4053", "Assembly-CSharp.csproj", "{10AEA692-E9E9-143A-2A77-AC4126F73B6B}"
 EndProject
-Project("{66FE663F-A072-EC53-BD15-EB5315E377B4}") = "TG_CAP4053", "Assembly-CSharp-Editor.csproj", "{D589A67D-5684-290B-FC2E-095E3697F9FB}"
-EndProject
 Project("{66FE663F-A072-EC53-BD15-EB5315E377B4}") = "TG_CAP4053", "Assembly-UnityScript-firstpass.unityproj", "{6EC3C2DD-5650-F120-3858-1CF122A550BD}"
 EndProject
 Project("{66FE663F-A072-EC53-BD15-EB5315E377B4}") = "TG_CAP4053", "Assembly-UnityScript.unityproj", "{592966BA-E2D7-1569-0EEB-D1DDA9BF3B19}"
@@ -25,10 +23,6 @@ Global
 		{10AEA692-E9E9-143A-2A77-AC4126F73B6B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{10AEA692-E9E9-143A-2A77-AC4126F73B6B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{10AEA692-E9E9-143A-2A77-AC4126F73B6B}.Release|Any CPU.Build.0 = Release|Any CPU
-		{D589A67D-5684-290B-FC2E-095E3697F9FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{D589A67D-5684-290B-FC2E-095E3697F9FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{D589A67D-5684-290B-FC2E-095E3697F9FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{D589A67D-5684-290B-FC2E-095E3697F9FB}.Release|Any CPU.Build.0 = Release|Any CPU
 		{6EC3C2DD-5650-F120-3858-1CF122A550BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{6EC3C2DD-5650-F120-3858-1CF122A550BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6EC3C2DD-5650-F120-3858-1CF122A550BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -41,7 +35,7 @@ Global
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
-																																																																																					GlobalSection(MonoDevelopProperties) = preSolution
+																																																																																																																										GlobalSection(MonoDevelopProperties) = preSolution
 		StartupItem = Assembly-CSharp.csproj
 		Policies = $0
 		$0.TextStylePolicy = $1
